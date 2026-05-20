@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 2</title>
+</head>
+<body>
+
+  <h1>Demostración de Output en Javascript</h1>
+
+  <!-- Botón para mostrar alerta -->
+  <button onclick="mostrarAlerta()">
+    Mostrar alerta
+  </button>
+
+  <br><br>
+
+  <!-- Párrafo vacío -->
+  <p id="mensaje"></p>
+
+  <!-- Botón para cambiar texto -->
+  <button onclick="cambiarTexto()">
+    Cambiar texto
+  </button>
+
+  <script>
+    // Mensaje en consola al cargar la página
+    console.log("La página se cargó correctamente.");
+
+    // Función para mostrar alerta
+    function mostrarAlerta() {
+      alert("Yessica Peñaloza");
+    }
+
+    // Función para cambiar el texto del párrafo
+    function cambiarTexto() {
+      document.getElementById("mensaje").textContent =
+        "¡Texto actualizado con Javascript!";
+    }
+  </script>
+
+</body>
+</html>
