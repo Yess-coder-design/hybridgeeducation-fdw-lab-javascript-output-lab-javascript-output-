@@ -1,9 +1,42 @@
 # Lab : Javascript Output
 
-1. Modifica el archivo ejercicio1.html. Crea una página HTML con un párrafo vacío y un botón. Cuando se haga clic en el botón, el contenido del párrafo debe cambiar a "¡Texto actualizado con Javascript!".
+# Laboratorio de Output en JavaScript
 
-2. Modifica el archivo ejercicio2.html. Crea una página HTML que contenga lo siguiente:
-	- Un título que diga "Demostración de Output en Javascript".
-	- Un botón que, al hacer clic, muestre una alerta con tu nombre.
-	- Un párrafo vacío y un botón que, al hacer clic, cambie el contenido del párrafo a "¡Texto actualizado con Javascript!".
-	- Un mensaje que se imprima en la consola del navegador cuando se cargue la página.
+Este proyecto contiene ejercicios básicos de JavaScript enfocados en demostrar diferentes formas de mostrar información en una página web.
+
+## 📂 Archivos del proyecto
+
+### ejercicio1.html
+Contiene:
+- Un párrafo vacío.
+- Un botón.
+- Uso de JavaScript para actualizar el contenido del párrafo al hacer clic en el botón.
+
+### ejercicio2.html
+Contiene:
+- Un título principal.
+- Un botón que muestra una alerta con el nombre del usuario.
+- Un párrafo vacío y un botón que actualiza su contenido.
+- Un mensaje que se imprime en la consola del navegador al cargar la página.
+
+## 🚀 Tecnologías utilizadas
+
+- HTML5
+- JavaScript
+
+## ▶️ Cómo ejecutar el proyecto
+
+1. Descarga o clona este repositorio.
+2. Abre los archivos `.html` en tu navegador.
+3. Interactúa con los botones para probar las funcionalidades.
+
+## 📖 Objetivo
+
+Practicar las diferentes formas de output en JavaScript:
+- `alert()`
+- `console.log()`
+- Manipulación del DOM con `textContent`
+
+## 👩‍💻 Autor
+
+Yessica Peñaloza
